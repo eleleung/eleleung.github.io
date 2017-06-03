@@ -16,6 +16,7 @@
     <!-- Bootstrap 3.3.2 -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
+
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/slick.css">
@@ -23,6 +24,8 @@
 
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="assets/js/modernizr.custom.32033.js"></script>
 
@@ -36,7 +39,7 @@
 
     <div class="pre-loader">
         <div class="load-con">
-            <img src="assets/img/freeze/logo.png" class="animated fadeInDown" alt="">
+            <img src="img/logos/dd_logo.png" class="animated fadeInDown" alt="">
             <div class="spinner">
               <div class="bounce1"></div>
               <div class="bounce2"></div>
@@ -54,22 +57,28 @@
                             <span class="fa fa-bars fa-lg"></span>
                         </button>
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/freeze/logo.png" alt="" class="logo">
+                            <img src="img/logos/dd_logo.png" alt="" class="logo">
                         </a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#about">about</a>
+                            <li>
+                                <a href="#about">about</a>
                             </li>
-                            <li><a href="#features">features</a>
+                            <li>
+                                <a href="#features">features</a>
                             </li>
-                            <li><a href="#screens">screens</a>
+                            <li>
+                                <a href="#mob-app">mobile app</a>
                             </li>
-                            <!--<li><a href="#demo">demo</a>-->
-                            <!--</li>-->
+                            <li>
+                                <a href="#web-app">web app</a>
+                            </li>
+                            <li>
+                                <a href="#support">support</a>
+                            </li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -96,7 +105,7 @@
                             data-speed="500"
                             data-start="700"
                             data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/Slides/hand-freeze.png" alt="">
+                            <img src="img/slides/hand_login.png" alt="">
                         </div>
 
                         <div class="tp-caption lfl fadeout visible-xs"
@@ -107,7 +116,7 @@
                             data-speed="500"
                             data-start="700"
                             data-easing="Power4.easeOut">
-                            <img src="assets/img/freeze/iphone-freeze.png" alt="">
+                            <img src="img/slides/hand_login.png" alt="">
                         </div>
 
                         <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
@@ -137,7 +146,7 @@
                             data-y="center"
                             data-hoffset="0"
                             data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
                             data-voffset="50"
                             data-speed="1000"
                             data-start="700"
@@ -284,7 +293,7 @@
                         </div> -->
                     </div>
                     <div class="col-md-4 col-sm-4" >
-                        <img src="assets/img/freeze/iphone-freeze.png" class="img-responsive scrollpoint sp-effect5" alt="">
+                        <img src="img/slides/iphone-recording.png" class="img-responsive scrollpoint sp-effect5" alt="">
                     </div>
                     <div class="col-md-4 col-sm-4 scrollpoint sp-effect2">
                         <div class="media feature">
@@ -337,53 +346,82 @@
             </div>
         </section>
 
-        <section id="screens">
+        <section id="mob-app" class="screens">
             <div class="container">
                 <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Screens</h1>
+                    <h1>Mobile App</h1>
                     <div class="divider"></div>
-                    <p>See what's included</p>
+                    <p>Prototype Screens</p>
                 </div>
 
-                <div class="filter scrollpoint sp-effect3">
-                    <a href="javascript:void(0)" class="button js-filter-all active">All Screens</a>
-                    <a href="javascript:void(0)" class="button js-filter-one">User Access</a>
-                    <a href="javascript:void(0)" class="button js-filter-two">Social Network</a>
-                    <a href="javascript:void(0)" class="button js-filter-three">Media Players</a>
-                </div>
+                <!--<div class="filter scrollpoint sp-effect3">-->
+                    <!--<a href="javascript:void(0)" class="button js-filter-one">Mobile App</a>-->
+                    <!--<a href="javascript:void(0)" class="button js-filter-two">Web App</a>-->
+                <!--</div>-->
                 <div class="slider filtering scrollpoint sp-effect5" >
-                    <div class="one">
-                        <img src="assets/img/freeze/screens/profile.jpg" alt="">
-                        <h4>Profile Page</h4>
-                    </div>
-                    <div class="two">
-                        <img src="assets/img/freeze/screens/menu.jpg" alt="">
-                        <h4>Toggel Menu</h4>
-                    </div>
-                    <div class="three">
-                        <img src="assets/img/freeze/screens/weather.jpg" alt="">
-                        <h4>Weather Forcast</h4>
+                    <div class="one mobile-app">
+                        <img class="mobile-app" src="img/mobile_app/Register-User.png" alt="">
+                        <h4>Register</h4>
                     </div>
                     <div class="one">
-                        <img src="assets/img/freeze/screens/signup.jpg" alt="">
+                        <img class="mobile-app" src="img/mobile_app/Home.png" alt="">
+                        <h4>Available Tests</h4>
+                    </div>
+                    <div class="one">
+                        <img class="mobile-app" src="img/mobile_app/Record-Audio.png" alt="">
+                        <h4>Record Audio</h4>
+                    </div>
+                    <div class="one">
+                        <img class="mobile-app" src="img/mobile_app/Recorded-Test-List.png" alt="">
+                        <h4>View Tests</h4>
+                    </div>
+                    <div class="one">
+                        <img class="mobile-app" src="img/mobile_app/Register-Patient.png" alt="">
                         <h4>Sign Up</h4>
                     </div>
                     <div class="one">
-                        <img src="assets/img/freeze/screens/calendar.jpg" alt="">
-                        <h4>Event Calendar</h4>
-                    </div>
-                    <div class="two">
-                        <img src="assets/img/freeze/screens/options.jpg" alt="">
-                        <h4>Some Options</h4>
-                    </div>
-                    <div class="three">
-                        <img src="assets/img/freeze/screens/sales.jpg" alt="">
-                        <h4>Sales Analysis</h4>
+                        <img class="mobile-app" src="img/mobile_app/Record-Audio-Uploaded.png" alt="">
+                        <h4>Upload Audio</h4>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="web-app" class="demo">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Web App</h1>
+                    <div class="divider"></div>
+                    <p>Prototype Screens</p>
+                </div>
+                <div class="slider web-screens scrollpoint sp-effect5" >
+                    <div class="one">
+                        <img class="web-app" src="img/webapp/Login.png" alt="">
+                        <h4 style="text-align: center">Secure information with standard security features</h4>
+                    </div>
+                    <div class="one">
+                        <img class="web-app" src="img/webapp/Overview.png" alt="">
+                        <h4 style="text-align: center">See recent statistics with our Overview</h4>
+                    </div>
+                    <div class="one">
+                        <img class="web-app" src="img/webapp/PatientList.png" alt="">
+                        <h4 style="text-align: center">View all your patients in one place</h4>
+                    </div>
+                    <div class="one">
+                        <img class="web-app" src="img/webapp/Previous_Tests.png" alt="">
+                        <h4 style="text-align: center">Historical data is just a click away</h4>
+                    </div>
+                    <div class="one">
+                        <img class="web-app" src="img/webapp/Tests.png" alt="">
+                        <h4 style="text-align: center">Create and update tests for each patient or illness</h4>
+                    </div>
+                    <div class="one">
+                        <img class="web-app" src="img/webapp/Assigned_Tests.png" alt="">
+                        <h4 style="text-align: center">Assign tests to patients for regular completion</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--<section id="demo">-->
             <!--<div class="container">-->
                 <!--<div class="section-heading scrollpoint sp-effect3">-->
@@ -400,23 +438,80 @@
                 <!--</div>-->
             <!--</div>-->
         <!--</section>-->
+        <section id="support" class="doublediagonal">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Support</h1>
+                    <div class="divider"></div>
+                    <p>For more info and support, contact us!</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 scrollpoint sp-effect1">
+                                <form role="form">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Your email">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea cols="30" rows="10" class="form-control" placeholder="Your message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </form>
+                            </div>
+                            <div class="col-md-4 col-sm-4 contact-details scrollpoint sp-effect2">
+                                <div class="media">
+                                    <a class="pull-left" href="#" >
+                                        <i class="fa fa-map-marker fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">University of Western Australia</h4>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left" href="#" >
+                                        <i class="fa fa-envelope fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">
+                                            <a href="mailto:support@oleose.com">21147839@student.uwa.edu.au</a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <a class="pull-left" href="#" >
+                                        <i class="fa fa-phone fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">0415 556 245</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <footer>
             <div class="container">
                 <a href="#" class="scrollpoint sp-effect3">
-                    <img src="assets/img/freeze/logo.png" alt="" class="logo">
+                    <img src="img/logos/dd_logo.png" alt="" class="logo">
                 </a>
-                <div style="margin-top: 17px; color: white">
-                    <p><strong>Want to know more? Contact us at 21149831@student.uwa.edu.au</strong></p>
-                </div>
+                <!--<div style="margin-top: 17px; color: white">-->
+                    <!--<p><strong></strong></p>-->
+                <!--</div>-->
                 <div class="social">
-                    <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
-                    <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
-                    <a href="#" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a data-toggle="popover" data-content="Coming Soon" class="scrollpoint sp-effect3"><i class="fa fa-twitter fa-lg"></i></a>
+                    <a data-toggle="popover" data-content="Coming Soon" class="scrollpoint sp-effect3"><i class="fa fa-google-plus fa-lg"></i></a>
+                    <a data-toggle="popover" data-content="Coming Soon" class="scrollpoint sp-effect3"><i class="fa fa-facebook fa-lg"></i></a>
                 </div>
                 <div class="rights">
-                    <p>Copyright &copy; 2014</p>
-                    <p>Template by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a></p>
+                    <!--<p>Copyright &copy; 2014</p>-->
+                    <!--<p>Template by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a></p>-->
                 </div>
             </div>
         </footer>

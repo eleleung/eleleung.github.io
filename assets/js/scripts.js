@@ -95,6 +95,36 @@ var appMaster = {
 
     },
 
+    webScreensCarousel: function() {
+        // Screens Carousel
+        $('.web-screens').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }, {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }]
+        });
+    },
+
     animateScript: function() {
         $('.scrollpoint.sp-effect1').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('animated fadeInLeft');},{offset:'100%'});
         $('.scrollpoint.sp-effect2').waypoint(function(){$(this).toggleClass('active');$(this).toggleClass('animated fadeInRight');},{offset:'100%'});
@@ -160,6 +190,8 @@ $(document).ready(function() {
 
     appMaster.screensCarousel();
 
+    appMaster.webScreensCarousel();
+
     appMaster.animateScript();
 
     appMaster.revSlider();
@@ -168,4 +200,5 @@ $(document).ready(function() {
 
     appMaster.placeHold();
 
+    $('[data-toggle="popover"]').popover();
 });
